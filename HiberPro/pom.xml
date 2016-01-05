@@ -6,7 +6,6 @@
 	<artifactId>HiberPro</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-
 	<name>HiberPro</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -62,6 +61,11 @@
 			<groupId>javax.transaction</groupId>
 			<artifactId>jta</artifactId>
 			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.el</groupId>
+			<artifactId>javax.el-api</artifactId>
+			<version>2.2.4</version>
 		</dependency>
 	</dependencies>
 </project>
